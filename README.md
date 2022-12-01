@@ -18,7 +18,7 @@
 
 # Final presentation:
 
-- "Final Presentation.pd"
+- "Final Presentation.pdf"
 
 # Application UI
 
