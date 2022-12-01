@@ -1,6 +1,5 @@
 # Team-2
 
-<<<<<<< HEAD
 <table>
     <tr>
         <td>
@@ -59,32 +58,3 @@
         </td>
     </tr>
 </table>
-=======
-# 1st Team Meeting:
-
-- Team2-CP-design2.png
-
-# Presentation 1:
-
-- Scrambler Password.pdf
-
-# 2nd Team Meeting:
-
-- Deliverables_Team 2.docx
-
-# Presentation 2:
-
-- Presentation_2.pdf
-
-# Final presentation:
-
-- "Final Presentation.pdf"
-
-# Application UI
-
-- "frontend"
-
-# Application Backend / Database
-
-- "backend"
->>>>>>> 0f94016dfa3e9adbd76fb95817db4010df729ff0
