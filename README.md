@@ -7,3 +7,5 @@
 - Deliverables_Team 2.docx
 # Presentation 2:
 - Presentation_2.pdf
+# Final presentation:
+- "Final Presentation.pdf"
