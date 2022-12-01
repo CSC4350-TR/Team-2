@@ -1,0 +1,46 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="A new way to authenticate!" />
+  <title>Sign Up</title>
+  <link rel="stylesheet" type="text/css" href="../css/signup.css" />
+  <script src="../js/scrambler.js" type="text/javascript"></script>
+  <script src="../js/signup.js" type="text/javascript"></script>
+  <script>
+    alert('1. Please choose one of the 4 images to use as your password. \n2. Shuffle the image by clicking a tile next to the empty one. It will swap places with the empty one. Every swap will create your password. \n3. Enter your email in the text input below. Then click the "signup" button \n4. When you go to login, scramble the same image in the same sequence, enter your email & press “login.”')
+  </script>
+</head>
+
+<body id="body">
+  <div id="row_button_container">
+    <button id="gorilla">Gorilla </button>
+    <button id="dinosaur">Dinosaur </button>
+    <button id="horse">Horse </button>
+    <button id="alligator">Alligator </button>
+  </div>
+
+  <div id="game_board">
+    <div id="row0">
+
+    </div>
+    <div id="row1">
+
+    </div>
+    <div id="row2">
+
+    </div>
+    <div id="row3">
+
+    </div>
+  </div>
+
+  <input autocomplete="off" id="email" placeholder="Email" />
+  <button id="submit" onclick="handleSubmission()">Sign Up</button>
+
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+@keyframes flip {
+    0%{height: 0;}
+    50%{width: 0;transform: rotate(360deg);}
+    100%{}
+}
+html {
+  overflow: hidden;
+  font-family: sans-serif;
+  display:flex;
+}
+body {
+  align-self:center;
+  overflow-x: hidden;
+  height: 100%;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  background-color: #555555;
+  align-items: center;
+}
+div#row_button_container {
+  margin-top: 1%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+button#gorilla ,#dinosaur,#horse,#alligator,#submit {
+  height:2rem;
+  width: 7rem;
+  margin-top:1rem;
+  border-radius: 10px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font: 500 0.875rem "Roboto", sans-serif;
+}
+div#game_board {
+  margin-top: 2%;
+  flex: 1;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+div#row0, div#row1,div#row2,div#row3 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.non_click_image {
+    height:100px;
+    width:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.clickable_image {
+    height:100px;
+    width:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    pointer-events:all;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: flip 0.2s forwards; 
+}
+.clickable_image:hover {
+  border: 2px solid #01A167;
+  cursor: pointer;
+}
+.clickable_image:active {
+  border: 2px solid  #00D084;
+  cursor: pointer;
+}
+p {
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+input {
+  margin-top:5%;
+  height: 30px;
+  width: 200px;
+  padding: 5px;
+  border-radius:5px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font: 300 0.875rem "Roboto", sans-serif;
+}
